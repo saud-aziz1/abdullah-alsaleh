@@ -1,0 +1,118 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333333;
+}
+div{
+    color: #947a25; /* لون ذهبي */
+    text-align: right;   
+    background-color: #947a25; /* لون ذهبي */
+    color: #ffffff;
+    padding: 20px;
+    
+    width: 97%;
+    height: 4%; 
+}
+header {
+    background-color: #ffffff; /* لون ذهبي */
+    color: #ffffff;
+    padding: 5rem;
+    position: relative;
+    overflow: hidden; /* لضمان عدم خروج الشعار من الصندوق */
+}
+
+.header-logo {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    max-width: 180px; /* يمكنك ضبط الحجم حسب الحاجة */
+    max-height: 160px;
+    
+}
+
+h1 {
+    text-align: center;
+    margin: 0;
+}
+
+nav {
+    background-color: #f2f2f2;
+    padding: 1.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #947a25; /* لون ذهبي */
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 5rem;
+    text-align: center;
+    
+}
+
+section h2 {
+    color: #947a25; /* لون ذهبي */
+    text-align: center;
+}
+.self{
+    background-color: #947a25; /* لون ذهبي */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 50;
+    width: 100%;
+    height: 20%;
+}
+.whatsapp-button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #947a25; /* لون الأخضر الخاص بـ WhatsApp */
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease;
+    margin-top: 1rem;
+    display: block;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.whatsapp-button:hover {
+    background-color: #947a25; /* لون أخضر أغمق عند التمرير */
+}
+
+footer {
+    background-color: #947a25; /* لون ذهبي */
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 4%;
+}
+
